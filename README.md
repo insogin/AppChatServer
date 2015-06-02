@@ -1,4 +1,4 @@
-# AppChatServer
+# Android Chat App: The Server side.
 
 ## Description
 This java project is used to set a server, provide a specific port. The connection  
