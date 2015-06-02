@@ -11,7 +11,7 @@ by one client, then other clients will receive it by cyclic sending from the ser
 
 ## Outline of the code
 The main function is in the `ServerWindow.java`, the server will be available when  
-a port number is entered and click the button, and the execution jumps to `ChatServer.java`. 
+a port number is entered and click the button, and the execution jumps to `ChatServer.java`  
 Once the server startup, it creates a server socket bound to the specified port, which  
 waits for requests come from the network. These two files form the main logic of the  
 program, the other java files could be seen as auxiliaries of them.
@@ -26,8 +26,8 @@ client registering, the client login, the client exiting and the regular message
 by online clients.
 
 ### User.java
-The [`User.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/bean/User.java) defines a series of methods to manipulate the server ip and port, users' 
-id, name, picture and status.
+The [`User.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/bean/User.java) defines a series of methods to manipulate the server ip and port, users' id,  
+name, picture and status.
 
 ### ContentFlag.java
 The [`ContentFlag.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/constant/ContentFlag.java) defines three flags to reflect the status of user, i.e., "online",  
