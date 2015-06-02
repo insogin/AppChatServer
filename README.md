@@ -10,7 +10,10 @@ by one client, then other clients will receive it by cyclic sending from the ser
 ![](https://raw.githubusercontent.com/insogin/AppChatServer/master/screenshot/Screen%20Shot%202015-06-02%20at%201.21.53%20AM.png)
 
 ## Outline of the code
-
+The main function is in the `ServerWindow.java`, the server will be available when  
+a port number is entered and click the button. Once the server startup, it creates  
+a server socket bound to the specified port, which waits for requests come from the  
+network.
 ### ServerWindow.java  
 The [`ServerWindow.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/client/ServerWindow.java) creates a Swing GUI shown as the following Fig, if a number  
 e.g., 8888 is entered, then the corresponding port is provided for the chat app.
