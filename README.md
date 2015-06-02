@@ -11,9 +11,10 @@ by one client, then other clients will receive it by cyclic sending from the ser
 
 ## Outline of the code
 The main function is in the `ServerWindow.java`, the server will be available when  
-a port number is entered and click the button. Once the server startup, it creates  
-a server socket bound to the specified port, which waits for requests come from the  
-network.
+a port number is entered and click the button, and the execution jumps to `ChatServer.java`. 
+Once the server startup, it creates a server socket bound to the specified port, which  
+waits for requests come from the network. These two files form the main logic of the  
+program, the other java files could be seen as auxiliaries of them.
 ### ServerWindow.java  
 The [`ServerWindow.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/client/ServerWindow.java) creates a Swing GUI shown as the following Fig, if a number  
 e.g., 8888 is entered, then the corresponding port is provided for the chat app.
