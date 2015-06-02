@@ -16,7 +16,7 @@ The `ServerWindow.java` creates a Swing GUI shown as the following Fig, if a num
 e.g., 8888 is entered, then the corresponding port is provided for the chat app.
 
 ### ChatServer.java
-The `ChatServer.java` impements the activity of the server. The rule of creating and  
+The [`ChatServer.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/server/ChatServer.java) impements the activity of the server. The rule of creating and  
 killing ServerSocket is defined. There are four basic requests from a user, the new  
 client registering, the client login, the client exiting and the regular message send  
 by online clients.
