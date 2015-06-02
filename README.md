@@ -7,7 +7,7 @@ utilizing the threadpool provided by Android to deal with the clients' access.
 The information of all online clients is cached on the server, if a message sent  
 by one client, then other clients will receive it by cyclic sending from the server.
 
-![](https://raw.githubusercontent.com/insogin/AppChatServer/master/screenshot/Screen%20Shot%202015-06-02%20at%201.21.53%20AM.png =60*70)
+![](https://raw.githubusercontent.com/insogin/AppChatServer/master/screenshot/Screen%20Shot%202015-06-02%20at%201.21.53%20AM.png)
 
 ## Outline of the code
 The main function is in the `ServerWindow.java`, the server will be available when  
