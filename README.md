@@ -40,3 +40,12 @@ The `XmlParser.java` plays the role as a data base, some important information o
 is saved, the picture of the user for example. it can create and save the unique id for  
 each user, thus the user can be searched through this id.
 
+## Acknowledgement
+I would like to give special thanks to Dr. Andy Li, Dr. Kaikai Liu and Dr. Ze Yu (In alphabetical  
+order). Specifically, Dr. Li inspired me  interesting of java & Android programming and  
+also always tries to help me to form a good habit of learning and programming. Dr. Liu  
+and Dr. Yu are always available and willing to give kind help with regarding to my problems  
+in the process of my learning.
+
+## References
+
