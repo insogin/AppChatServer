@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/csu/bean/User.java=UTF-8
+encoding//src/com/csu/client/ServerWindow.java=UTF-8
+encoding//src/com/csu/constant/ContentFlag.java=UTF-8
+encoding//src/com/csu/server/ChatServer.java=UTF-8
+encoding//src/com/csu/tool/FormatDate.java=UTF-8
+encoding//src/com/csu/tool/StreamTool.java=UTF-8
+encoding//src/com/csu/tool/XmlParser.java=UTF-8
+encoding/<project>=UTF-8

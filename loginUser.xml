@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users> 
+  <user id="1000"> 
+    <name>HAHA</name>  
+    <image>1432439830025.png</image> 
+  </user>  
+  <user id="1001"> 
+    <name>yang</name>  
+    <image>1432524363858.png</image> 
+  </user>  
+  <user id="1002"> 
+    <name>Wenjin Yang</name>  
+    <image>1432529836659.png</image> 
+  </user>  
+  <user id="1003"> 
+    <name>Yang</name>  
+    <image>1432531080883.png</image> 
+  </user>  
+  <user id="1004">
+    <name>Andy Li</name>
+    <image>1432802042767.png</image>
+  </user>
+</users>
