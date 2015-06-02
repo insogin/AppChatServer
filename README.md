@@ -9,7 +9,15 @@ by one client, then other clients will receive it by cyclic sending from the ser
 
 ![](https://raw.githubusercontent.com/insogin/AppChatServer/master/screenshot/Screen%20Shot%202015-06-02%20at%201.21.53%20AM.png)
 
-## 
-Specifically, the `ServerWindow.java`  
-creates a Swing GUI shown as the following Fig, if a number e.g., 8888 is entered, then the  
-corresponding port is provided for the chat app. 
+## Outline of the code
+### ServerWindow.java  
+The `ServerWindow.java` creates a Swing GUI shown as the following Fig, if a number  
+e.g., 8888 is entered, then the corresponding port is provided for the chat app.
+
+### ChatServer.java
+The `ChatServer.java` impements the activity of the server. The rule of creating and  
+killing ServerSocket is defined. There are four basic requests from a user, the new  
+client registering, the client login, the client exiting and the regular message send  
+by online clients.
+
+
