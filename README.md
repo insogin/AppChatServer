@@ -37,6 +37,6 @@ THe `StreamTool.java` deals with the input and output data streams.
 
 ### XmlParser.java
 The `XmlParser.java` plays the role as a data base, some important information of users  
-is saved. it can create and save the unique id for each user, thus the user can be searched  
-through this id.
+is saved, the picture of the user for example. it can create and save the unique id for  
+each user, thus the user can be searched through this id.
 
