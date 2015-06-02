@@ -12,7 +12,7 @@ by one client, then other clients will receive it by cyclic sending from the ser
 ## Outline of the code
 
 ### ServerWindow.java  
-The `ServerWindow.java` creates a Swing GUI shown as the following Fig, if a number  
+The [`ServerWindow.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/client/ServerWindow.java) creates a Swing GUI shown as the following Fig, if a number  
 e.g., 8888 is entered, then the corresponding port is provided for the chat app.
 
 ### ChatServer.java
@@ -22,21 +22,21 @@ client registering, the client login, the client exiting and the regular message
 by online clients.
 
 ### User.java
-The `User.java` defines a series of methods to manipulate the server ip and port, users' 
+The [`User.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/bean/User.java) defines a series of methods to manipulate the server ip and port, users' 
 id, name, picture and status.
 
 ### ContentFlag.java
-The `ContentFlag.java` defines three flags to reflect the status of user, i.e., "online",  
+The [`ContentFlag.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/constant/ContentFlag.java) defines three flags to reflect the status of user, i.e., "online",  
 "offline" and "register".
 
 ### FormatDate.java
-The `FormatData.java` defines the time format, "MM-dd hh:mm".
+The [`FormatData.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/tool/FormatDate.java) defines the time format, "MM-dd hh:mm".
 
 ### StreamTool.java
-THe `StreamTool.java` deals with the input and output data streams.
+THe [`StreamTool.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/tool/StreamTool.java) deals with the input and output data streams.
 
 ### XmlParser.java
-The `XmlParser.java` plays the role as a data base, some important information of users  
+The [`XmlParser.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/tool/XmlParser.java) plays the role as a data base, some important information of users  
 is saved, the picture of the user for example. it can create and save the unique id for  
 each user, thus the user can be searched through this id.
 
