@@ -15,31 +15,31 @@ a port number is entered and click the button, and the execution jumps to `ChatS
 Once the server startup, it creates a server socket bound to the specified port, which  
 waits for requests come from the network. These two files form the main logic of the  
 program, the other java files could be seen as auxiliaries of them.
-### ServerWindow.java  
+#### ServerWindow.java  
 The [`ServerWindow.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/client/ServerWindow.java) creates a Swing GUI shown as the following Fig, if a number  
 e.g., 8888 is entered, then the corresponding port is provided for the chat app.
 
-### ChatServer.java
+#### ChatServer.java
 The [`ChatServer.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/server/ChatServer.java) impements the activity of the server. The rule of creating and  
 killing ServerSocket is defined. There are four basic requests from a user, the new  
 client registering, the client login, the client exiting and the regular message send  
 by online clients.
 
-### User.java
+#### User.java
 The [`User.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/bean/User.java) defines a series of methods to manipulate the server ip and port, users' id,  
 name, picture and status.
 
-### ContentFlag.java
+#### ContentFlag.java
 The [`ContentFlag.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/constant/ContentFlag.java) defines three flags to reflect the status of user, i.e., "online",  
 "offline" and "register".
 
-### FormatDate.java
+#### FormatDate.java
 The [`FormatData.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/tool/FormatDate.java) defines the time format, "MM-dd hh:mm".
 
-### StreamTool.java
+#### StreamTool.java
 THe [`StreamTool.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/tool/StreamTool.java) deals with the input and output data streams.
 
-### XmlParser.java
+#### XmlParser.java
 The [`XmlParser.java`](https://github.com/insogin/AppChatServer/blob/master/src/com/csu/tool/XmlParser.java) plays the role as a data base, some important information of users  
 is saved, the picture of the user for example. it can create and save the unique id for  
 each user, thus the user can be searched through this id.
